@@ -31,6 +31,10 @@ const links = [
     url: '/items'
   },
   {
+    name: 'Moves',
+    url: '/moves'
+  },
+  {
     name: 'Contests',
     url: '/contests'
   },

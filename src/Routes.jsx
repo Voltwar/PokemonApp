@@ -9,6 +9,7 @@ import Berries from './pages/Berries';
 import Contests from './pages/Contests';
 import Games from './pages/Games';
 import Items from './pages/Items';
+import Moves from './pages/Moves';
 
 function Routes () {
     return (
@@ -41,6 +42,11 @@ function Routes () {
             <Switch>
                 <Route path="/games">
                     <Games />
+                </Route>
+            </Switch>
+            <Switch>
+                <Route path="/moves">
+                    <Moves />
                 </Route>
             </Switch>
             <Switch>
